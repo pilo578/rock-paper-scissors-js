@@ -11,12 +11,31 @@
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" href="">
+        <style>
+            button { margin: 5px; padding: 10px; font-size: 16px; }
+            #results { margin-top: 20px; font-size: 18px;}
+        </style>
     </head>
     <body>
         <!--[if lt IE 7]>
             <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="#">upgrade your browser</a> to improve your experience.</p>
         <![endif]-->
-        
+        <h1>ROCK PAPER SCISSORS</h1>
+        <br/>
+        <div>
+            <button id="Rock"></button>\
+            <button id="Paper"></button>
+            <button id="Scissors"></button>
+        </div>
+
+        <br/>
+        <div id="results">
+            <p id="roundResult"></p>
+            <p id="score">You: 0 - Computer: 0</p>
+            <p id="finalWinner"></p>
+        </div>
+
+        <!--JS Code-->
         <script src="./script.js" async defer></script>
     </body>
 </html>
